@@ -10,12 +10,3 @@ positive = [i for i in list if i > 0]
 print(negative)
 print(positive)
 
-list = []
-code = input("Введите числа через пробел ")
-code = code.split(' ')
-step = int(input('Введите сдвиг '))
-for i in range(len(code)):
-    if i + step > code:
-
-    else:
-        code[i], code[i + step] = code[i + step], code[i]
